@@ -1,0 +1,15 @@
+Source: tealinux-control-center
+Section: unknown
+Priority: extra
+Maintainer: Reza Faiz A Rahman <ylpmiskrad@gmail.com>
+Build-Depends: ignsdk-debian | ignsdk, debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+#Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://git.debian.org/collab-maint/tealinux-control-center.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/tealinux-control-center.git;a=summary
+
+Package: tealinux-control-center
+Architecture: all
+Depends: ignsdk-debian | ignsdk, ${shlibs:Depends}, ${misc:Depends}
+Description: Another IGN SDK Application
+ This is an IGN SDK Application
