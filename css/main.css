@@ -27,3 +27,13 @@ body{
 	border-radius: 3px;
 	box-shadow: 2px 2px 2px #E9E9E9;
 }
+.link{
+	color: #6eb046;
+}
+.tab-kiri{
+	padding-left: 50px;
+}
+.btn{
+	padding-left: 60px;
+	padding-right: 60px;
+}
