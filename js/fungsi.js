@@ -1,5 +1,19 @@
+// $(document).ready(function(){
+// 		var sys = ign.sys();
+
+
+// 		// $('#sys-info').click(function(){
+// 		// 	document.getElementById('#info-distro').innerHTML = '<h1>'+  sys.cliOut('uname -a') +'</h1>';
+// 		// 	$('div#info-distro').fadeIn();
+// 		// });
+
+// 		// $('#sys-dir').click(function(){
+// 		// 	document.getElementById('#info-distro').innerHTML = '<pre>'+  sys.cliOut('ls /') +'</pre>';
+// 		// 	$('div#info-distro').fadeIn();
+// 		// });
+// 	});
 var sys = ign.sys();
-	$(document).ready(function() {
+		$(document).ready(function() {
 		$('#defaults').click(function() {
 			sys.exec('libfm-pref-apps');
 		});
@@ -31,10 +45,10 @@ var sys = ign.sys();
 			sys.exec('gnome-disks');
 		});
 		$('#printer').click(function() {
-			sys.exec('');
+			sys.exec('system-config-printer');
 		});
 		$('#bluetooth').click(function() {
-			sys.exec('');
+			sys.exec('blueman-manager');
 		});
 		$('#network').click(function() {
 			sys.exec('nm-connection-editor');
@@ -48,4 +62,19 @@ var sys = ign.sys();
 		$('#update').click(function() {
 			sys.exec('software-properties-gtk');
 		});
+		$('#open-web').click(function() {
+			sys.exec('firefox http://tealinuxos.org');
+		});
+		$('#dukungan').click(function() {
+			sys.exec('firefox http://tealinuxos.org');
+		});
+		$('#hama').click(function() {
+			sys.exec('firefox http://tealinuxos.org/bug-report-question/');
+		});
+		document.getElementById('#description').innerHTML = '<p>'+  sys.cliOut('lsb_release -d') +'</p>';
+		document.getElementById('#codename').innerHTML = '<p>'+  sys.cliOut('lsb_release -c') +'</p>';
+		// document.getElementById('#processor').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
+		// document.getElementById('#memory').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
+		// document.getElementById('#graphics').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
+		// document.getElementById('#storage').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
 	});

@@ -1,12 +1,12 @@
 {
-  "config" : { 
+  "config" : {
 		"debug" : true,
 		"websecurity" : true,
-		"name" : "TeaLinux Control Center"
+		"name" : "TeaLinux Control Center (alpha)"
   },
-  "window" : { 
-		"transparent" : false, 
-		"noframe" : false, 
+  "window" : {
+		"transparent" : false,
+		"noframe" : false,
 		"fullscreen" : false,
 		"maximize" : false,
 		"width" : 800,
