@@ -42,3 +42,22 @@ p, h5 {
 	padding-left: 60px;
 	padding-right: 60px;
 }
+
+.kotak-kiri{
+	width: 160px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #E9E9E9;
+	height: 380px;
+}
+
+.kotak-kanan{
+	/*font-size: 12px;*/
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #E9E9E9;
+	background-color: #fff;
+	margin-left: -20px;
+	padding: 20px;
+	height: 380px;
+}
