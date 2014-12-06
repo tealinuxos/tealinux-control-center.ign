@@ -1,118 +1,157 @@
 <!doctype html>
 <html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<script type="text/javascript" src="qrc:///js/jquery.js"></script>
-<script type="text/javascript" src="qrc:///js/ign.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/fungsi.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="qrc:///js/jquery.js"></script>
+    <script type="text/javascript" src="qrc:///js/ign.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/fungsi.js"></script>
 </head>
+
 <body>
-	<div class="kepala">
-		<div class="row centered">
-			<div class="col-md-1">
-				<a href="index.html" class=""><img src="img/home.png" ng-src="img/home.png" height="34" width="32"></a>
-			</div>
-		</div>
-	</div>
-	<div class="kotak-luar" style="padding-top: 20px;">
-		<div class="kotak-dalam">
-			<div class="row centered">
-				<div class="col-xs-2 text-center">
-					<a href="#" id="defaults" class=""><img src="img/session-properties.png" height="42" width="42"></a>
-					<h5>Defaults</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="desktop" class=""><img src="img/preferences-desktop-wallpaper.png" height="42" width="42"></a>
-					<h5>Desktop</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="language" class=""><img src="img/preferences-desktop-locale.png" height="42" width="42"></a>
-					<h5>Language Support</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="startup" class=""><img src="img/preferences-system-windows.png" height="42" width="42"></a>
-					<h5>Startup Applications</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="appearance" class=""><img src="img/preferences-desktop-theme.png" height="42" width="42"></a>
-					<h5>Appearance</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="openbox" class=""><img src="img/preferences-color.png" height="42" width="42"></a>
-					<h5>Openbox</h5>
-				</div>
-			</div>
-			<div class="row centered">
-				<div class="col-xs-2 text-center">
-					<a href="tweak.html" class=""><img src="img/unity-tweak-tool.png" height="42" width="42"></a>
-					<h5>Tweaks</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="kotak-luar">
-		<div class="kotak-dalam">
-			<div class="row centered">
-				<!-- <div class="col-xs-2 text-center">
+    <div class="kepala">
+        <div class="row centered">
+            <div class="col-md-1">
+                <a href="index.html" class="">
+                    <img src="img/home.png" ng-src="img/home.png" height="34" width="32">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="kotak-luar" style="padding-top: 20px;">
+        <div class="kotak-dalam">
+            <div class="row centered">
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="defaults" class="">
+                        <img src="img/session-properties.png" height="42" width="42">
+                    </a>
+                    <h5>Defaults</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="desktop" class="">
+                        <img src="img/preferences-desktop-wallpaper.png" height="42" width="42">
+                    </a>
+                    <h5>Desktop</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="language" class="">
+                        <img src="img/preferences-desktop-locale.png" height="42" width="42">
+                    </a>
+                    <h5>Language Support</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="startup" class="">
+                        <img src="img/preferences-system-windows.png" height="42" width="42">
+                    </a>
+                    <h5>Startup Applications</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="appearance" class="">
+                        <img src="img/preferences-desktop-theme.png" height="42" width="42">
+                    </a>
+                    <h5>Appearance</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="openbox" class="">
+                        <img src="img/preferences-color.png" height="42" width="42">
+                    </a>
+                    <h5>Openbox</h5>
+                </div>
+            </div>
+            <div class="row centered">
+                <div class="col-xs-2 text-center">
+                    <a href="tweak.html" class="">
+                        <img src="img/unity-tweak-tool.png" height="42" width="42">
+                    </a>
+                    <h5>Tweaks</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="kotak-luar">
+        <div class="kotak-dalam">
+            <div class="row centered">
+                <!-- <div class="col-xs-2 text-center">
 					<a href="#" class=""><img src="img/jockey.png" height="42" width="42"></a>
 					<h5>Additional Drivers</h5>
 				</div> -->
-				<div class="col-xs-2 text-center">
-					<a href="#" id="monitor" class=""><img src="img/preferences-desktop-display.png" height="42" width="42"></a>
-					<h5>Displays</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="keymouse" class=""><img src="img/preferences-desktop-keyboard.png" height="42" width="42"></a>
-					<h5>Keyboard & Mouse</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="power" class=""><img src="img/preferences-system-power.png" height="42" width="42"></a>
-					<h5>Power</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="disks" class=""><img src="img/gnome-disks.png" height="42" width="42"></a>
-					<h5>Disks</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="printer" class=""><img src="img/printer.png" height="42" width="42"></a>
-					<h5>Printers</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="kotak-luar">
-		<div class="kotak-dalam">
-			<div class="row centered">
-				<div class="col-xs-2 text-center">
-					<a href="#" id="bluetooth" class=""><img src="img/preferences-system-bluetooth-inactive.png" height="42" width="42"></a>
-					<h5>Bluetooth</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="" id="network" class=""><img src="img/preferences-system-network.png" height="42" width="42"></a>
-					<h5>Network</h5>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="kotak-luar">
-		<div class="kotak-dalam">
-			<div class="row centered">
-				<div class="col-xs-2 text-center">
-					<a href="about.html" class=""><img src="img/preferences-desktop-user.png" height="42" width="42"></a>
-					<h5>About</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="time" class=""><img src="img/preferences-system-time.png" height="42" width="42"></a>
-					<h5>Time & Date</h5>
-				</div>
-				<div class="col-xs-2 text-center">
-					<a href="#" id="user" class=""><img src="img/preferences-desktop-user.png" height="42" width="42"></a>
-					<h5>Users & Groups</h5>
-				</div>
-			</div>
-		</div>
-	</div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="monitor" class="">
+                        <img src="img/preferences-desktop-display.png" height="42" width="42">
+                    </a>
+                    <h5>Displays</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="keymouse" class="">
+                        <img src="img/preferences-desktop-keyboard.png" height="42" width="42">
+                    </a>
+                    <h5>Keyboard & Mouse</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="power" class="">
+                        <img src="img/preferences-system-power.png" height="42" width="42">
+                    </a>
+                    <h5>Power</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="disks" class="">
+                        <img src="img/gnome-disks.png" height="42" width="42">
+                    </a>
+                    <h5>Disks</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="printer" class="">
+                        <img src="img/printer.png" height="42" width="42">
+                    </a>
+                    <h5>Printers</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="kotak-luar">
+        <div class="kotak-dalam">
+            <div class="row centered">
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="bluetooth" class="">
+                        <img src="img/preferences-system-bluetooth-inactive.png" height="42" width="42">
+                    </a>
+                    <h5>Bluetooth</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="" id="network" class="">
+                        <img src="img/preferences-system-network.png" height="42" width="42">
+                    </a>
+                    <h5>Network</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="kotak-luar">
+        <div class="kotak-dalam">
+            <div class="row centered">
+                <div class="col-xs-2 text-center">
+                    <a href="about.html" class="">
+                        <img src="img/preferences-desktop-user.png" height="42" width="42">
+                    </a>
+                    <h5>About</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="time" class="">
+                        <img src="img/preferences-system-time.png" height="42" width="42">
+                    </a>
+                    <h5>Time & Date</h5>
+                </div>
+                <div class="col-xs-2 text-center">
+                    <a href="#" id="user" class="">
+                        <img src="img/preferences-desktop-user.png" height="42" width="42">
+                    </a>
+                    <h5>Users & Groups</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

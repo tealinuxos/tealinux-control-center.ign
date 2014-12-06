@@ -1,21 +1,21 @@
 {
-  "config" : {
-		"debug" : true,
-		"websecurity" : true,
-		"name" : "TeaLinux Control Center (alpha)"
-  },
-  "window" : {
-		"transparent" : false,
-		"noframe" : false,
-		"fullscreen" : false,
-		"maximize" : false,
-		"width" : 800,
-		"height" : 500
-	},
-  "button" : [
-		"back",
-		"forward",
-		"stop",
-		"reload"
-	]
+    "config": {
+        "debug": true,
+        "websecurity": true,
+        "name": "TeaLinux Control Center (alpha)"
+    },
+    "window": {
+        "transparent": false,
+        "noframe": false,
+        "fullscreen": false,
+        "maximize": false,
+        "width": 800,
+        "height": 500
+    },
+    "button": [
+  "back",
+  "forward",
+  "stop",
+  "reload"
+ ]
 }
