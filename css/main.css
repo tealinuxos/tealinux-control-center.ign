@@ -1,63 +1,61 @@
-body{
-	background-color: #F5F5F5 ;
-	line-height: 1em;
+body {
+    background-color: #F5F5F5;
+    line-height: 1em;
 }
-
-p, h5 {
-	font-size: 10pt;
+p,
+h5 {
+    font-size: 10pt;
 }
-
-.kepala{
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 10px;
-	padding-right: 20px;
-	background-image: url(../img/logo.png);
-	background-position: right center;
-	background-repeat: no-repeat;
-	background-color: #fff;
+.kepala {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    background-image: url(../img/logo.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
-
-.kotak-luar{
-	background-color: #f5f5f5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 20px;
-	padding-right: 20px;
+.kotak-luar {
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-.kotak-dalam{
-	padding: 20px;
-	background-color: #fff;
-	border-radius: 3px;
-	box-shadow: 2px 2px 2px #E9E9E9;
+.kotak-dalam {
+    padding: 10px 20px 20px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #E9E9E9;
 }
-.link{
-	color: #6eb046;
+.link {
+    color: #6eb046;
 }
-.tab-kiri{
-	padding-left: 50px;
+.tab-kiri {
+    padding-left: 50px;
 }
-.btn{
-	padding-left: 60px;
-	padding-right: 60px;
+.btn {
+    padding-left: 60px;
+    padding-right: 60px;
 }
-
-.kotak-kiri{
-	/*width: 160px;*/
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 3px;
-	box-shadow: 2px 2px 2px #E9E9E9;
-	height: 380px;
+.kotak-kiri {
+    /*width: 160px;*/
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #E9E9E9;
+    height: 380px;
 }
-
-.kotak-kanan{
-	/*font-size: 12px;*/
-	border-radius: 3px;
-	box-shadow: 2px 2px 2px #E9E9E9;
-	background-color: #fff;
-	margin-left: -10px;
-	padding: 20px;
-	height: 380px;
+.kotak-kanan {
+    /*font-size: 12px;*/
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #E9E9E9;
+    background-color: #fff;
+    margin-left: -10px;
+    padding: 20px;
+    height: 380px;
+}
+.kategori {
+    padding: 0px 00px 20px;
 }
