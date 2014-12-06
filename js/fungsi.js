@@ -75,9 +75,9 @@ $(document).ready(function () {
         sys.exec('xdg-open http://bug.tealinuxos.org');
     });
     document.getElementById('#tealinux').innerHTML = '<h3><strong>' + sys.cliOut('lsb_release -s -d') + '</strong></h3>';
-    document.getElementById('#device').innerHTML = '<p>' + 'Device name: ' + sys.cliOut('uname -n') + '</p>';
-    document.getElementById('#version').innerHTML = '<p>' + 'Version: ' + sys.cliOut('lsb_release -s -r') + '" ' + sys.cliOut('lsb_release -s -c') + '"' + ' ( ' + sys.cliOut('uname -p') + ' ) ' + '</p>';
-    document.getElementById('#built').innerHTML = '<p>' + 'Built on: Ubuntu 13.10 ("Saucy")' + '</p>';
+    document.getElementById('#device').innerHTML = '<p>' + '<strong>' + 'Device name: ' + '</strong>' + sys.cliOut('uname -n') + '</p>';
+    document.getElementById('#version').innerHTML = '<p>' + '<strong>' + 'Version: ' + '</strong>' + sys.cliOut('lsb_release -s -r') + '" ' + sys.cliOut('lsb_release -s -c') + '"' + ' ( ' + sys.cliOut('uname -p') + ' ) ' + '</p>';
+    document.getElementById('#built').innerHTML = '<p>' + '<strong>' + 'Built on: ' + '</strong>' + 'Ubuntu 13.10 ("Saucy")' + '</p>';
     // document.getElementById('#processor').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
     // document.getElementById('#memory').innerHTML = '<p>'+  sys.cliOut('') +'</p>';
     // document.getElementById('#graphics').innerHTML = '<p>'+  sys.cliOut('') +'</p>';

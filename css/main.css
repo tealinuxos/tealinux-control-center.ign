@@ -24,7 +24,7 @@ h5 {
     padding-right: 20px;
 }
 .kotak-dalam {
-    padding: 20px;
+    padding: 10px 20px 20px;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 2px 2px 2px #E9E9E9;
@@ -55,4 +55,7 @@ h5 {
     margin-left: -10px;
     padding: 20px;
     height: 380px;
+}
+.kategori {
+    padding: 0px 00px 20px;
 }
