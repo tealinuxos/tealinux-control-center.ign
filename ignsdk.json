@@ -2,7 +2,7 @@
     "config": {
         "debug": true,
         "websecurity": true,
-        "name": "TeaLinux Control Center (alpha)"
+        "name": "TeaLinux Control Center 1.0 (Beta)"
     },
     "window": {
         "transparent": false,
@@ -13,9 +13,5 @@
         "height": 500
     },
     "button": [
-  "back",
-  "forward",
-  "stop",
-  "reload"
  ]
 }
