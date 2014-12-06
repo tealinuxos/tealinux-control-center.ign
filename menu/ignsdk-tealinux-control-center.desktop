@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=TeaLinux Control Center
 Exec=/usr/bin/ignsdk -p /opt/ignsdk/tealinux-control-center.ign
-Icon=/opt/ignsdk/tealinux-control-center.ign/icons/app.png
+Icon=preferences-system
 Terminal=false
 Type=Application
 Categories=Settings
