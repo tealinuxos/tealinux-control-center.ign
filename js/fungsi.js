@@ -32,6 +32,9 @@ $(document).ready(function () {
     $('#openbox').click(function () {
         sys.exec('obconf');
     });
+    $('#plank').click(function () {
+        sys.exec('planksettings.gambas');
+    });
     $('#monitor').click(function () {
         sys.exec('lxrandr');
     });
